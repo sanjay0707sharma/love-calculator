@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Astro</title>
+</head>
+
+<body>
+  <!-- Header part -->
+  <div class="container">
+    <div class="row nav-set">
+      <div class="col-md-6">
+        <img src="./img/instaastro-logo.svg" alt="imginsta" height="100px" width="160px">
+      </div>
+
+      <div class="col-md-2">
+<button type="button" class="btn  btn1"><i class="bi bi-chat"></i>Chat With Astrologer</button>
+      </div>
+
+      <div class="col-md-2">
+        <button type="button" class="btn btn2"><i class="bi bi-telephone"></i>Chat With Astrologer</button>
+      </div>
+
+      <div class="col-md-2">
+        <button type="button" class="btn  log">Login</button>
+      </div>
+    
+    </div>
+  </div>
+  <!-- Header part end -->
+
+    <!-- Second part Header -->
+
+  <nav class="navbar navbar-expand-lg mynav">
+    <div class="container">
+        
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Kundli</a>
+                <a href="#" class="nav-item nav-link">Matchmaking</a>
+                <a href="#" class="nav-item nav-link">Horoscope</a>
+                <a href="#" class="nav-item nav-link">Live</a>
+                <a href="#" class="nav-item nav-link">Panchang</a>
+                <a href="#" class="nav-item nav-link">Calendar</a>
+                <a href="#" class="nav-item nav-link">Blog</a>
+                
+            </div>
+            <div class="navbar-nav ms-auto">
+                
+            </div>
+        </div>
+    </div>
+</nav>
+     <!-- Second part Header end-->
+     <!-- 1st section-->
+
+     <div class="container">
+      <div class="row sec-set">
+        <div class="col-md-2">
+          <img src="./img/love-calculator-image.svg" alt="love" height="150px" width="120px" class="imglove">
+        </div>
+        <div class="col-md-10">
+          <h1 class="head-set">Love Calculator</h1><br>
+<p class="paraset">Want to know the chances of your love being successful or not? InstaAstro presents Love Calculator Online to calculate the love between you and your partner. Enter your details and find out the love compatibility.</p>
+        </div>
+        </div>
+        </div>
+
+
+        <!-- form section-->
+        <div style="background-color:#f8f8f8" class="padtop">
+        <!-- form section sec 1-->
+        <div class="container">
+          <div class="row sec-set2 ">
+            <div class="col-md-3">
+              <p>Your name*</p>
+              <input type="text" placeholder="Enter Your Name" id="name" class="selectsets" >
+            </div>
+            <div class="col-md-3">
+              <p>Your Gender*</p>
+              <select name="select1" id="gender"  class="selectsets">
+                <option value="select gender">Select Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Your Date*</p>
+              <select name="select1" id="sel2" class="selectsets" >
+                <option value="date">Date</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                <option value="4">4</option><option value="4">4</option><option value="4">4</option>
+                <option value="5">5</option><option value="6">6</option><option value="7">7</option>
+                <option value="8">8</option><option value="9">9</option><option value="10">10</option>
+                
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Your Month*</p>
+            <select name="select1" id="sel3"  class="selectsets" >
+             <option value="Select Month"> Select Month</option>
+             <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+             <option value="4">4</option><option value="4">4</option><option value="4">4</option>
+             <option value="5">5</option><option value="6">6</option><option value="7">7</option>
+             <option value="8">8</option><option value="9">9</option><option value="10">10</option>
+               
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Your Year*</p>
+              <select name="select1" id="sel4" class="selectsets">
+                <option value="Year">Year</option>
+                <option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option>
+                <option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option>
+                <option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option>
+                <option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option>
+                
+            </select>
+
+          
+
+
+
+
+            
+            </div>
+            </div>
+            </div>
+          
+        <!-- form section1 end-->
+        <!-- form section2 start-->
+
+        <div class="container">
+          <div class="row sec-set2">
+            <div class="col-md-3">
+              <p>Partner name*</p>
+              <input type="text" placeholder="Enter Partner Name" id="name4" class="selectsets" >
+            </div>
+            <div class="col-md-3">
+              <p>Partner Gender*</p>
+              <select name="select1" id="gender2"  class="selectsets">
+                <option value="select gender">Select Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Partner Date*</p>
+              <select name="select1" id="sel22" class="selectsets" >
+                <option value="date">Date</option>
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                <option value="4">4</option><option value="4">4</option><option value="4">4</option>
+                <option value="5">5</option><option value="6">6</option><option value="7">7</option>
+                <option value="8">8</option><option value="9">9</option><option value="10">10</option>
+                
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Partner Month*</p>
+            <select name="select1" id="sel32"  class="selectsets" >
+             <option value="Select Month"> Select Month</option>
+             <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+             <option value="4">4</option><option value="4">4</option><option value="4">4</option>
+             <option value="5">5</option><option value="6">6</option><option value="7">7</option>
+             <option value="8">8</option><option value="9">9</option><option value="10">10</option>
+               
+              </select>
+            </div>
+            <div class="col-md-2">
+              <p>Partner Year*</p>
+              <select name="select1" id="sel42" class="selectsets">
+                <option value="Year">Year</option>
+                <option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option>
+                <option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option>
+                <option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option>
+                <option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option>
+                
+            </select>
+
+           
+
+
+
+
+            
+            </div>
+            </div>
+            </div>
+
+            <!-- form section3 start-->
+
+            <div class="container">
+              <div class="row sec-set2">
+                <div class="col-md-6">
+                  
+                  <p>How much do you love him or her on a scale from 1 to 100:*</p>
+                </div>
+
+                <div class="col-md-2">
+                  <input type="text" placeholder="Type Here" id="name2" class="selectsets" >
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-2">
+
+
+               
+    
+    
+    
+    
+                
+                </div>
+                </div>
+                </div>
+
+            <!-- form section3 end-->
+            <!-- form section4 start-->
+
+
+            <div class="container">
+              <div class="row sec-set2">
+                <div class="col-md-6">
+                  
+                  <p>How much do you think he or she loves you on a scale from 1 to 100:*</p>
+                </div>
+
+                <div class="col-md-2">
+                  <input type="text" placeholder="Type Here" id="name3" class="selectsets" >
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-2">
+
+
+            
+    
+    
+                
+                </div>
+                </div>
+                </div>
+               <br><br>
+                <button onclick="myname()" class="submitset">Get Calculate</button>
+
+            <!-- form section4 end-->
+          </div>
+
+            <!-- text-section start-->
+
+            <div class="container">
+              <div class="row text-sec">
+                <div class="col-md-12">
+<p class="paraset2">Do you love someone and wish to know if they are the special ones? Do you want to check your love compatibility strength with your partner? Then, take the love compatibility test and find how much you score on the love calculator. This tool will answer all your questions like "does she love me?" and "are we perfect for each other?"</p>
+<p>This Love Calculator Online tool is a direct method of finding out whether you and your partner will be compatible or not. Simply enter your and your partner's name and birth details, and get your understanding of how much you love each other.</p>
+<p>InstaAstro brings you an authentic way to calculate Love percentage and decode your love connection. Our ultimate love test calculator online conducts a love compatibility test based on your and your partner's name and birth details. Then, it displays a love percentage that tells how well you match with your partner or what are the odds of success of your relationship. So, be ready to make the most of the accurate love calculator and find your genuine soulmate connection with this love tracker?</p>
+
+     <h2 class="head-set2">How Accurate is the Love Compatibility Calculator?</h2>
+<p>The Love Compatibility calculator or Love Test Calculator online offers results proven to be 100% accurate. In addition, the complex algorithms on which the Online Love Calculator works offer complete authenticity to love meter test results</p>
+
+<h2 class="head-set2">How Does Love Percentage Calculator Work?</h2>
+<p>Is it a true love test? True Love Calculator follows specific algorithms to calculate love percentage. This Love compatibility test or relation finder tool follows an ancient system of numerology that utilizes your date of birth and name for creating love calculations. It also includes planetary influences analysed solely based on your date of birth. Since the name and date of birth are the main aspects of finding a love percentage, the love calculator online is referred to as a true love name match or accurate love calculator by date of birth</p>
+<h2 class="head-set2">How Can A True Love Calculator Help?</h2>
+<p>Finding your Love Compatibility or Love Percentage works wonders in your life. Calculating your true love percentage by real love percentage calculator by date of birth and name gives you clarity and detailed insights into your relationship. A love parameter by a true love calculator motivates you to build a better bond with your match. It drives you to improve weaker aspects and maintain your bond. The Love Calculator by name and date of birth, thus, is a fantastic tool to calculate your love compatibility with your companion. Even if you are in love with someone and desire to check if they are your soulmate or not, this online love marriage calculator by date of birth is the perfect way to find your best love match.</p>
+
+
+
+                  </div>
+                  </div>
+                  </div>
+
+            <!-- text-section end-->
+
+ <!-- accordian start-->
+
+ <div class="container">
+  <div class="row text-sec">
+    <div class="col-md-12">
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+
+ <!-- accordian end-->
+  <!-- six-box Start-->
+
+  <div class="container">
+    <div class="row box-sec">
+      <div class="col-md-2">
+        <div class="signbox">
+        <img src="./img/aries.svg" alt="love" height="70px" width="100px" class="imgsign" >
+        <h3>Aries</h3>
+        <p>Mar 21 -Apr 19</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/taurus.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Taurus</h3>
+          <p>Apr 20 - May 20</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/gemini.svg" alt="love" height="70px" width="100px" class="imgsign">
+          <h3>Gemini</h3>
+          <p>Jun 22 - Jul 22</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/cancer.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Cancer</h3>
+          <p>Jun 22 - Jul 22</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/leo.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Leo</h3>
+          <p>Jul 23 - Aug 22</p>
+        </div></div>
+
+
+        <div class="col-md-2 ">
+          <div class="signbox">
+          <img src="./img/virgo.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>virgo</h3>
+          <p>Aug 23 - Sept 22</p>
+        </div></div>
+        </div>
+        </div>
+
+   <!-- Six-box end-->
+
+   <!-- Six-box2 start-->
+
+   <div class="container">
+    <div class="row box-sec2">
+      <div class="col-md-2">
+        <div class="signbox">
+        <img src="./img/libra.svg" alt="love" height="70px" width="100px" class="imgsign" >
+        <h3>libra</h3>
+        <p>Sept 23 - Oct 23</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/scorpius.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Scorpius</h3>
+          <p>Oct 24 - Nov 22</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/sagittarius.svg" alt="love" height="70px" width="100px" class="imgsign">
+          <h3>Sagittarius</h3>
+          <p>Nov 23 - Dec 21</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/capricornus.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Capricornus</h3>
+          <p>Dec 22 - Jan 19</p>
+        </div></div>
+
+        <div class="col-md-2">
+          <div class="signbox">
+          <img src="./img/aquarius.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Aquarius</h3>
+          <p>Jan 20 - Feb 18</p>
+        </div></div>
+
+
+        <div class="col-md-2 ">
+          <div class="signbox">
+          <img src="./img/pisces.svg" alt="love" height="70px" width="100px" class="imgsign" >
+          <h3>Pisces</h3>
+          <p>Feb 19 - Mar 20</p>
+        </div></div>
+        </div>
+        </div>
+
+
+   <!-- Six-box2 end-->
+   <!-- dark-section start-->
+   <div class="dark-top">
+   <div class="container">
+    <div class="row dark-set">
+      <div class="col-md-4">
+        <a href="#">Home</a><br>
+        <a href="#">Talk with Astrologer</a><br>
+        <a href="#">Live Astrologers</a><br>
+        <a href="#">Daily Horoscope</a>
+        </div>
+
+          <div class="col-md-4">
+            <a href="#">Kundli</a><br>
+            <a href="#">Match Making</a><br>
+            <a href="#">Blog</a><br>
+            <a href="#">Calendar</a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="#">Arti Sangrah</a><br>
+              <a href="#">WallPapers</a>
+              </div>
+
+
+        </div>
+        </div>
+
+
+      </div>
+   <!-- dark-section end-->
+
+   <!-- footer start-->
+
+   <div class="foot-top">
+   <div class="container">
+    <div class="row foot-set">
+      <div class="col-md-3">
+        <h3 class="foot-head">Useful Links</h3>
+        <a href="#">Privacy Policy</a><br>
+        <a href="#">Terms & Conditions</a><br>
+        <a href="#">Careers</a><br>
+        <a href="#">Astrologer Registration</a>
+        <a href="#">Help</a>
+        </div>
+
+          <div class="col-md-6">
+            <h3  class="foot-head2">Download Our App</h3>
+           <br>
+            <img src="./img/google-play.png" alt="play" height="50px" width="140px" class="imgply" ><br>
+            <img src="./img/app-store.png" alt="play" height="50px" width="140px" class="imgply" >
+
+            </div>
+
+            <div class="col-md-3">
+              <h3 class="foot-head">Contact Us</h3>
+              <a href="tel:+91- 6366-937-227">Phone: +91- 6366-937-227</a><br>
+              <a href="mailto:support@instaastro.in">Email: support@instaastro.in</a>
+              </div>
+
+
+        </div>
+        </div>
+
+        <div class="bot-set">
+          <div class="container">
+           <div class="col-md-12">
+
+            <h4 class="bottom-set">Copyright © Instaastro 2022</h4>
+
+            </div>
+            </div>
+            </div>
+
+      </div>
+
+   <!-- footer end-->
+   
+
+
+      
+</body>
+
+</html>
+
+<style>
+
+@media (min-width:320px) and (max-width:767px){
+
+.btn2 {
+    margin-left: 0px !important;
+    margin-top: 12px;
+}
+.btn1 {
+  margin-left: 0px !important;
+}
+.signbox {
+    margin-top: 17px !important;
+}
+button.btn.log {
+    display: none;
+}
+.mynav {
+    margin-top: 25px;
+}
+
+
+}
+
+  .mynav a:hover{
+    color:#212529;
+}
+  .bot-set {
+    border-top: 1px solid #ffffff38;
+    margin-top: 34px;
+    padding-top: 26px;
+}
+h4.bottom-set {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    color: white;
+    font-size: 18px;
+}
+  .foot-head{
+
+    color: white;
+    font-size: 22px;
+  }
+  h3.foot-head2 {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+  img.imgply {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.log {
+    background: #ff7000;
+    border-color: #ff7000;
+    color:white;
+    float: right;
+}
+
+.btn1:hover{
+  background: #ff7000;
+  color:white;
+  border-color: #ff7000;
+
+}
+.btn1 {
+    border-color: black;
+    width: max-content;
+    margin-left: 20px;
+    padding: 9px;
+}
+.btn2:hover{
+  background: #ff7000;
+  color:white;
+  border-color: #ff7000;
+
+}
+.btn2{
+  border-color: black;
+  width: max-content;
+  margin-left: 47px;
+  padding: 9px;
+}
+.row.nav-set {
+    align-items: center;
+}
+.bi-chat::before {
+    content: "\f268";
+    font-size: 20px;
+    margin-right: 6px;
+}
+.bi-telephone::before {
+    content: "\f590";
+    font-size: 20px;
+    margin-right: 6px;
+}
+.mynav {
+    background: #ffcc33
+}
+.mynav a {
+   
+    color:rgb(0, 0, 0);
+}
+img.imglove {
+    background: red;
+    border: 1px solid #C3C3C3;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+.sec-set{
+  padding-top: 40px;
+  align-items: center;
+}
+.head-set {
+    font-size: 30px;
+    font-weight: 700;
+}
+p.paraset {
+    margin-top: -14px;
+}
+.sec-set2{
+  margin-top: 32px;
+  align-items: center;
+}
+select.selectsets {
+    padding: 0.375rem 0.75rem;
+    background-color: #fcfcfc;
+    color: #212529;
+    border: 1px solid #C3C3C3;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 45px;
+}
+
+input#name,input#name3,input#name2,input#name4 {
+  padding: 0.375rem 0.75rem;
+    background-color: #fcfcfc;
+    color: #212529;
+    border: 1px solid #C3C3C3;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 45px;
+}
+button.submitset {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    background: #ff7000;
+    border-radius: 2%;
+    border: unset;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+button.submitset:hover {
+    background: #ffcc33;
+    color:black;
+}
+
+p.paraset2 {
+    
+}
+.head-set2 {
+    font-size: 21px;
+    font-weight: 700;
+    color:#212529;
+}
+.text-sec{
+  padding-top:40px;
+  
+}
+.padtop{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+}
+.signbox {
+    border: 1px solid gray;
+    border-radius: 4%;
+    padding: 20px 0px 20px;
+}
+.signbox:hover {
+    border: 1px solid red;
+}
+.signbox p {
+  margin: 0 auto;
+    width: fit-content;
+    font-size: 15px;
+}
+.signbox:hover p {
+color:red;
+}
+.signbox:hover h3 {
+color:red;
+}
+.signbox h3 {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+img.imgsign {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.box-sec2{
+  margin-top: 30px;
+}
+.box-sec{
+  margin-top: 50px;
+}
+
+.dark-top {
+    background-color: #2c2d2e;
+    margin-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 63px;
+}
+.dark-set a {
+    color: white;
+    text-decoration: unset;
+    border-bottom: 1px dotted #ffffff47;
+    padding-bottom: 8px;
+    line-height: 46px;
+    font-size: 17px;
+}
+.dark-set a:hover{
+  color:#ffcc33;
+}
+.foot-top{
+  background-color: #212529;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.foot-set a {
+    color: white;
+    text-decoration: unset;
+    border-bottom: 1px dotted #ffffff47;
+    padding-bottom: 8px;
+    line-height: 46px;
+    font-size: 17px;
+}
+.foot-set a:hover{
+  color:#ffcc33;
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+.btn2 {
+    margin-left: 0px !important;
+    margin-top: 12px;
+}
+.btn1 {
+  margin-left: 0px !important;
+}
+.signbox {
+    margin-top: 17px !important;
+}
+button.btn.log {
+    display: none;
+}
+.mynav {
+    margin-top: 25px;
+}
+h3.foot-head2 {
+    padding-top: 30px;
+}
+.foot-head {
+
+    padding-top: 20px;
+}
+.foot-top {
+    background-color: #212529;
+    padding-top: 0px !important;
+    padding-bottom: 30px;
+}
+
+}
+
+</style>
+
+<script>
+
+
+  
+
+function myname() {
+
+
+  
+ 
+  var x = document.getElementById("name").value;
+ 
+  var y = document.getElementById("gender").value;
+ 
+  var z = document.getElementById("sel2").value;
+  
+  var a = document.getElementById("sel3").value;
+ 
+  var b = document.getElementById("sel4").value;
+  
+
+
+  var e = document.getElementById("name4").value;
+ 
+  var f = document.getElementById("gender2").value;
+  
+  var g = document.getElementById("sel22").value;
+  
+  var h = document.getElementById("sel32").value;
+  
+  var i = document.getElementById("sel42").value;
+  
+
+
+
+  var c = document.getElementById("name2").value;
+ 
+  var d = document.getElementById("name3").value;
+  
+ 
+ 
+  alert(`Name : ${x} 
+Gender : ${y}
+Date : ${z} 
+Month : ${a} 
+Year : ${b}
+Partner Name : ${e}
+Partner Gender: ${f}
+Partner Date : ${g}
+Partner Month : ${h}
+Partner Year: ${i}
+How much do you love him or her on a scale from 1 to 100:*: ${c}
+How much do you think he or she loves you on a scale from 1 to 100:*: ${d}
+
+`);
+}
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
